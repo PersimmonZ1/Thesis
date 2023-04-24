@@ -1,0 +1,280 @@
+Configuration: 
+main_dirName: SAVE/yago_hard24-04-2023,10-19-42YAGO-EPOCH30
+description: yago_hard
+dataset: YAGO
+batch_size: 1024
+max_epochs: 30
+oracle_epochs: 20
+valid_epochs: 5
+alpha: 0.2
+lambdax: 2.0
+embedding_dim: 200
+lr: 0.001
+oracle_lr: 0.001
+oracle_mode: hard
+weight_decay: 1e-05
+dropout: 0.5
+grad_norm: 1.0
+filtering: True
+only_oracle: False
+only_eva: False
+model_dir: 
+save_dir: SAVE
+eva_dir: SAVE
+
+Epoch: 0005
+No Oracle: 
+Subject test MRR (lk): 0.849068
+Subject test MR (lk): 156.819956
+Subject test Hits (lk) @ 1: 0.837884
+Subject test Hits (lk) @ 3: 0.854172
+Subject test Hits (lk) @ 10: 0.868719
+Object test MRR (lk): 0.838870
+Object test MR (lk): 186.722148
+Object test Hits (lk) @ 1: 0.832352
+Object test Hits (lk) @ 3: 0.841110
+Object test Hits (lk) @ 10: 0.849664
+ALL test MRR (lk): 0.843969
+ALL test MR (lk): 171.771052
+ALL test Hits (lk) @ 1: 0.835118
+ALL test Hits (lk) @ 3: 0.847641
+ALL test Hits (lk) @ 10: 0.859192
+
+GT Oracle: 
+Subject test MRR (lk): 0.892081
+Subject test MR (lk): 150.513343
+Subject test Hits (lk) @ 1: 0.888849
+Subject test Hits (lk) @ 3: 0.892639
+Subject test Hits (lk) @ 10: 0.897096
+Object test MRR (lk): 0.887240
+Object test MR (lk): 175.086846
+Object test Hits (lk) @ 1: 0.885776
+Object test Hits (lk) @ 3: 0.887005
+Object test Hits (lk) @ 10: 0.888951
+ALL test MRR (lk): 0.889661
+ALL test MR (lk): 162.800095
+ALL test Hits (lk) @ 1: 0.887312
+ALL test Hits (lk) @ 3: 0.889822
+ALL test Hits (lk) @ 10: 0.893024
+
+-------------------------------------
+
+Epoch: 0010
+No Oracle: 
+Subject test MRR (lk): 0.856767
+Subject test MR (lk): 145.025201
+Subject test Hits (lk) @ 1: 0.847974
+Subject test Hits (lk) @ 3: 0.859141
+Subject test Hits (lk) @ 10: 0.872304
+Object test MRR (lk): 0.847543
+Object test MR (lk): 167.682170
+Object test Hits (lk) @ 1: 0.842237
+Object test Hits (lk) @ 3: 0.848486
+Object test Hits (lk) @ 10: 0.856323
+ALL test MRR (lk): 0.852155
+ALL test MR (lk): 156.353685
+ALL test Hits (lk) @ 1: 0.845106
+ALL test Hits (lk) @ 3: 0.853813
+ALL test Hits (lk) @ 10: 0.864314
+
+GT Oracle: 
+Subject test MRR (lk): 0.892257
+Subject test MR (lk): 137.157046
+Subject test Hits (lk) @ 1: 0.888388
+Subject test Hits (lk) @ 3: 0.892486
+Subject test Hits (lk) @ 10: 0.898274
+Object test MRR (lk): 0.887848
+Object test MR (lk): 156.535522
+Object test Hits (lk) @ 1: 0.886237
+Object test Hits (lk) @ 3: 0.887261
+Object test Hits (lk) @ 10: 0.889925
+ALL test MRR (lk): 0.890052
+ALL test MR (lk): 146.846284
+ALL test Hits (lk) @ 1: 0.887312
+ALL test Hits (lk) @ 3: 0.889873
+ALL test Hits (lk) @ 10: 0.894099
+
+-------------------------------------
+
+Epoch: 0015
+No Oracle: 
+Subject test MRR (lk): 0.855506
+Subject test MR (lk): 142.236106
+Subject test Hits (lk) @ 1: 0.845823
+Subject test Hits (lk) @ 3: 0.857860
+Subject test Hits (lk) @ 10: 0.872817
+Object test MRR (lk): 0.846195
+Object test MR (lk): 163.071454
+Object test Hits (lk) @ 1: 0.839676
+Object test Hits (lk) @ 3: 0.847513
+Object test Hits (lk) @ 10: 0.856938
+ALL test MRR (lk): 0.850850
+ALL test MR (lk): 152.653780
+ALL test Hits (lk) @ 1: 0.842750
+ALL test Hits (lk) @ 3: 0.852687
+ALL test Hits (lk) @ 10: 0.864877
+
+GT Oracle: 
+Subject test MRR (lk): 0.892410
+Subject test MR (lk): 134.364544
+Subject test Hits (lk) @ 1: 0.887569
+Subject test Hits (lk) @ 3: 0.893152
+Subject test Hits (lk) @ 10: 0.900323
+Object test MRR (lk): 0.888344
+Object test MR (lk): 153.119193
+Object test Hits (lk) @ 1: 0.886442
+Object test Hits (lk) @ 3: 0.887517
+Object test Hits (lk) @ 10: 0.890693
+ALL test MRR (lk): 0.890377
+ALL test MR (lk): 143.741869
+ALL test Hits (lk) @ 1: 0.887005
+ALL test Hits (lk) @ 3: 0.890334
+ALL test Hits (lk) @ 10: 0.895508
+
+-------------------------------------
+
+Epoch: 0020
+No Oracle: 
+Subject test MRR (lk): 0.854597
+Subject test MR (lk): 141.137863
+Subject test Hits (lk) @ 1: 0.844235
+Subject test Hits (lk) @ 3: 0.857706
+Subject test Hits (lk) @ 10: 0.872868
+Object test MRR (lk): 0.845530
+Object test MR (lk): 162.822491
+Object test Hits (lk) @ 1: 0.838140
+Object test Hits (lk) @ 3: 0.847411
+Object test Hits (lk) @ 10: 0.858014
+ALL test MRR (lk): 0.850064
+ALL test MR (lk): 151.980177
+ALL test Hits (lk) @ 1: 0.841187
+ALL test Hits (lk) @ 3: 0.852559
+ALL test Hits (lk) @ 10: 0.865441
+
+GT Oracle: 
+Subject test MRR (lk): 0.893035
+Subject test MR (lk): 133.681068
+Subject test Hits (lk) @ 1: 0.887569
+Subject test Hits (lk) @ 3: 0.894330
+Subject test Hits (lk) @ 10: 0.901654
+Object test MRR (lk): 0.888661
+Object test MR (lk): 153.795062
+Object test Hits (lk) @ 1: 0.886390
+Object test Hits (lk) @ 3: 0.887927
+Object test Hits (lk) @ 10: 0.891564
+ALL test MRR (lk): 0.890848
+ALL test MR (lk): 143.738065
+ALL test Hits (lk) @ 1: 0.886979
+ALL test Hits (lk) @ 3: 0.891128
+ALL test Hits (lk) @ 10: 0.896609
+
+-------------------------------------
+
+Epoch: 0025
+No Oracle: 
+Subject test MRR (lk): 0.851683
+Subject test MR (lk): 141.521155
+Subject test Hits (lk) @ 1: 0.840547
+Subject test Hits (lk) @ 3: 0.854223
+Subject test Hits (lk) @ 10: 0.872561
+Object test MRR (lk): 0.843817
+Object test MR (lk): 163.011218
+Object test Hits (lk) @ 1: 0.835630
+Object test Hits (lk) @ 3: 0.845874
+Object test Hits (lk) @ 10: 0.857553
+ALL test MRR (lk): 0.847750
+ALL test MR (lk): 152.266186
+ALL test Hits (lk) @ 1: 0.838088
+ALL test Hits (lk) @ 3: 0.850049
+ALL test Hits (lk) @ 10: 0.865057
+
+GT Oracle: 
+Subject test MRR (lk): 0.893507
+Subject test MR (lk): 134.612790
+Subject test Hits (lk) @ 1: 0.887978
+Subject test Hits (lk) @ 3: 0.894227
+Subject test Hits (lk) @ 10: 0.902320
+Object test MRR (lk): 0.889057
+Object test MR (lk): 154.892947
+Object test Hits (lk) @ 1: 0.886800
+Object test Hits (lk) @ 3: 0.888337
+Object test Hits (lk) @ 10: 0.892025
+ALL test MRR (lk): 0.891282
+ALL test MR (lk): 144.752868
+ALL test Hits (lk) @ 1: 0.887389
+ALL test Hits (lk) @ 3: 0.891282
+ALL test Hits (lk) @ 10: 0.897173
+
+-------------------------------------
+
+Epoch: 0030
+No Oracle: 
+Subject test MRR (lk): 0.848206
+Subject test MR (lk): 144.138094
+Subject test Hits (lk) @ 1: 0.835886
+Subject test Hits (lk) @ 3: 0.852328
+Subject test Hits (lk) @ 10: 0.871178
+Object test MRR (lk): 0.842056
+Object test MR (lk): 163.138759
+Object test Hits (lk) @ 1: 0.834042
+Object test Hits (lk) @ 3: 0.843825
+Object test Hits (lk) @ 10: 0.855350
+ALL test MRR (lk): 0.845131
+ALL test MR (lk): 153.638426
+ALL test Hits (lk) @ 1: 0.834964
+ALL test Hits (lk) @ 3: 0.848077
+ALL test Hits (lk) @ 10: 0.863264
+
+GT Oracle: 
+Subject test MRR (lk): 0.893270
+Subject test MR (lk): 137.715361
+Subject test Hits (lk) @ 1: 0.887261
+Subject test Hits (lk) @ 3: 0.894842
+Subject test Hits (lk) @ 10: 0.903037
+Object test MRR (lk): 0.889191
+Object test MR (lk): 155.563489
+Object test Hits (lk) @ 1: 0.886954
+Object test Hits (lk) @ 3: 0.888593
+Object test Hits (lk) @ 10: 0.891820
+ALL test MRR (lk): 0.891231
+ALL test MR (lk): 146.639425
+ALL test Hits (lk) @ 1: 0.887108
+ALL test Hits (lk) @ 3: 0.891717
+ALL test Hits (lk) @ 10: 0.897429
+
+-------------------------------------
+
+Epoch: 0030
+No Oracle: 
+Subject test MRR (lk): 0.847589
+Subject test MR (lk): 142.835707
+Subject test Hits (lk) @ 1: 0.835374
+Subject test Hits (lk) @ 3: 0.850382
+Subject test Hits (lk) @ 10: 0.871229
+Object test MRR (lk): 0.841759
+Object test MR (lk): 164.083338
+Object test Hits (lk) @ 1: 0.833274
+Object test Hits (lk) @ 3: 0.843723
+Object test Hits (lk) @ 10: 0.857092
+ALL test MRR (lk): 0.844674
+ALL test MR (lk): 153.459522
+ALL test Hits (lk) @ 1: 0.834324
+ALL test Hits (lk) @ 3: 0.847052
+ALL test Hits (lk) @ 10: 0.864160
+
+GT Oracle: 
+Subject test MRR (lk): 0.893123
+Subject test MR (lk): 136.518337
+Subject test Hits (lk) @ 1: 0.887159
+Subject test Hits (lk) @ 3: 0.894176
+Subject test Hits (lk) @ 10: 0.903242
+Object test MRR (lk): 0.889154
+Object test MR (lk): 156.493572
+Object test Hits (lk) @ 1: 0.886851
+Object test Hits (lk) @ 3: 0.888286
+Object test Hits (lk) @ 10: 0.892639
+ALL test MRR (lk): 0.891138
+ALL test MR (lk): 146.505955
+ALL test Hits (lk) @ 1: 0.887005
+ALL test Hits (lk) @ 3: 0.891231
+ALL test Hits (lk) @ 10: 0.897941
